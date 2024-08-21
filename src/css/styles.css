@@ -5,8 +5,10 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+
+body {
+  box-sizing: border-box;
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
